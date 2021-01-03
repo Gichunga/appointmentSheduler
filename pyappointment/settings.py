@@ -71,7 +71,7 @@ STATICFILES_FINDERS = (
 
 COMPRESS_ENABLED = True
 COMPRESS_PRECOMPILERS = (
-    ('text/less', '/usr/bin/lessc {infile} {outfile}'),
+    ('text/less', '/usr/bin/lessc {infile} {outfile}'), # change this according to your lessc location <which lessc> on the command line
 )
 
 # Database
