@@ -127,7 +127,7 @@ config.read(os.path.join(BASE_DIR, "config.ini"))
 # Django [django] block
 SECRET_KEY = config.get('django', 'SECRET_KEY')
 ALLOWED_HOSTS = config.get('django', 'ALLOWED_HOSTS')
-DEBUG = config.get('django', 'DEBUG')
+DEBUG = config.get('django', 'DEBUG') # have set debug to false for the development mode
 ADMINS = config.get('django', 'ADMINS')
 
 # Parse meeting types
